@@ -18,3 +18,4 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 
 
 # JSP
+Implicitly converted into Servlet
