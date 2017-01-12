@@ -79,6 +79,7 @@ It is used to include one JSP or HTML to another JSP.
 Example: `<%@ include file="/header.jsp" %>`
 
 ### Comment
+`<%-- response.sendRedirect("http://www.google.com"); --%>`
 
 # Citation
 JSP and servlet basics, Udemy, https://www.udemy.com/jsp-servlet-free-course/learn/v4/overview
