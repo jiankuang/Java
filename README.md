@@ -14,5 +14,7 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
     print.println("<h1>Hello World</h1>");
 }
 ```
+## Life Cycle
+
 
 # JSP
