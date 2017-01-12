@@ -21,9 +21,21 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 Implicitly converted into Servlet
 
 ## JSP Scripting Element
-* Expression
-* Scriptlet
-* Declaration
-* Directive
-* Comment
+### Expression
+`<%= out.println("Hello World") %>`  
+`<%= new String("Jian") %>` or `<%= "Jian" %>`  
+`<%= new java.util.Date() %>`  
+`<%= 25 * 10 %>`  
+`<%= 25 > 50 %>`  
+
+### Scriptlet
+`<% if(25>50) { out.println("True"); } else { out.println("False"); } %>`
+
+### Declaration
+```
+<%! public int x=5; %>
+<%= x %>
+```
+### Directive
+### Comment
 
