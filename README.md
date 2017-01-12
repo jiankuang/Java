@@ -56,6 +56,20 @@ String message() {
 A JSP directive privides additional information about the page to JSP Engine at page traslation time. This addtional information is used by JSP container and it controls the processing of the entire page accordingly. 
 
 #### Page Directive
+The page directive can apply different attributes to JSP page.  
+Following are the various page directives that are used in JSP:
+* language: `<%@ page language="java" %>`
+* extends: `<%@ page extends="com.Connect" %>`
+* import: `<%@ page import="java.util.*,java.io.*" %>`
+* session: `<%@ page session="true" %>`
+* buffer: `<%@ page buffer="8" %>`
+* autoFlush
+* isThreadSafe
+* errorPage
+* info
+* isErrorPage
+* contentType
+
 #### Taglib Directive
 #### include Directive
 
