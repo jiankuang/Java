@@ -53,5 +53,12 @@ String message() {
 <%= message() %>
 ```
 ### Directive
+A JSP directive privides additional information about the page to JSP 
+#### Page Directive
+#### Taglib Directive
+#### include Directive
+
 ### Comment
 
+# Citation
+JSP and servlet basics, Udemy, https://www.udemy.com/jsp-servlet-free-course/learn/v4/overview
