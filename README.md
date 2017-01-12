@@ -53,7 +53,8 @@ String message() {
 <%= message() %>
 ```
 ### Directive
-A JSP directive privides additional information about the page to JSP 
+A JSP directive privides additional information about the page to JSP Engine at page traslation time. This addtional information is used by JSP container and it controls the processing of the entire page accordingly. 
+
 #### Page Directive
 #### Taglib Directive
 #### include Directive
