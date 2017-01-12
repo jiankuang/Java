@@ -75,7 +75,7 @@ It is used to use the custom tags developed by you in JSP & also used to use JST
 Syntax: `<%@ taglib uri="some uri" prefix="some prefix" %>`  
 
 #### include Directive
-It is used to include one JSP or HTML to another JSP. 
+It is used to include one JSP or HTML to another JSP.  
 Example: `<%@ include file="/header.jsp" %>`
 
 ### Comment
