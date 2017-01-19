@@ -15,7 +15,7 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 }
 ```
 ## Life Cycle
-
+![Alt text](/servlet_life_cycle.PNG?raw=true "Servlet Life Cycle")
 
 # JSP
 Implicitly converted into Servlet
