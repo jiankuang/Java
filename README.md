@@ -21,6 +21,8 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 Implicitly converted into Servlet
 
 ## JSP Scripting Element
+![Alt text](/jsp_scripting_element.PNG?raw=true "JSP Scripting Element")
+
 ### Expression
 only one single statement  
 `<%= out.println("Hello World") %>`  
