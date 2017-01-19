@@ -83,5 +83,20 @@ Example: `<%@ include file="/header.jsp" %>`
 ### Comment
 `<%-- response.sendRedirect("http://www.google.com"); --%>`
 
+## JSP Implicit Objects
+**Implicit objects** are created by the web container that are available to all the jsp pages. There are in total 9 implicit objects. 
+
+implicit objects | Class
+-----------------|-------------------------------------
+out              | javax.servlet.jsp.JspWriter
+request          | javax.servlet.http.HttpServletRequest
+response         | javax.servlet.http.HttpServletResponse
+session          | javax.servlet.http.HttpSession
+application      | javax.servlet.ServletContext
+exception        | javax.servlet.jsp.JspException
+Page             | java.lang.Object
+pageContext      | javax.servlet.jsp.PageContext
+Config           | javax.servlet.ServletConfig
+
 # Citation
 JSP and servlet basics, Udemy, https://www.udemy.com/jsp-servlet-free-course/learn/v4/overview
