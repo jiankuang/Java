@@ -1,4 +1,4 @@
-# maven
+# Maven
 
 ## commands
 `mvn [plugin]:[goal]` command format  
