@@ -1,1 +1,1 @@
-Java Wev Dev Learning Notes
+Java Learning Notes
