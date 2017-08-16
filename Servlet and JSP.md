@@ -15,13 +15,13 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 }
 ```
 ## Life Cycle
-![Alt text](/servlet_life_cycle.PNG?raw=true "Servlet Life Cycle")
+![Alt text](/img/servlet_life_cycle.PNG?raw=true "Servlet Life Cycle")
 
 # JSP
 Implicitly converted into Servlet
 
 ## JSP Scripting Element
-![Alt text](/jsp_scripting_element.PNG?raw=true "JSP Scripting Element")
+![Alt text](/img/jsp_scripting_element.PNG?raw=true "JSP Scripting Element")
 
 ### Expression
 only one single statement  
